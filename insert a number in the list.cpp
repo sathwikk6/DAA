@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-   int arr1[100],i,n,p,x;
-   printf("\n\nInsert New value in the unsorted array : \n ");   
+   int arr1[100],i,n,p,x;   
    printf("Input the size of array : ");
    scanf("%d", &n);
    printf("Input %d elements in the array in ascending order:\n",n);
@@ -13,7 +12,7 @@ int main()
 	}
     printf("Input the value to be inserted : ");
     scanf("%d",&x);
-    printf("Input the Position, where the value to be inserted :");
+    printf("Input the Position :");
     scanf("%d",&p);
     printf("The current list of the array :\n");
     for(i=0;i<n;i++)
